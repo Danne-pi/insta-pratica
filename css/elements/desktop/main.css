@@ -1,0 +1,25 @@
+@import "home.css";
+
+*{
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    top: 0;
+    left: 0;
+}
+body{
+    width: auto;
+    margin: auto;
+    align-items: center;
+}
+.main-div{
+    margin: auto;
+    height: 2000px;
+    width: 935px;
+    background-color: aqua;
+}

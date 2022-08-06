@@ -1,0 +1,11 @@
+@import "home.css";
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    margin: auto;
+    align-items: center;
+}
