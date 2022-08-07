@@ -7,17 +7,37 @@
     <link rel="stylesheet" media="screen and (min-width: 935px)" href="css/desktop/main.css">
     <link rel="stylesheet" media="screen and (min-width: 615px) and (max-width: 934px)" href="css/tablet/main.css">
     <link rel="stylesheet" media="screen and (max-width: 614px)" href="css/phone/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
     
 
     <title>Instagram</title>
 </head>
-<header>    
+<header>
+    <div class="content">
+        <a href="#home"><img src="assets/icons/logo.svg" alt=""></a>
+        <input placeholder="Pesquisar" type="text">
+        <span>
+            <a href="#home"><img src="assets/icons/home.svg" alt=""></a>
+            <a href="#home"><img src="assets/icons/chat.svg" alt=""></a>
+            <a href="#home"><img src="assets/icons/plus.svg" alt=""></a>
+            <a href="#home"><img src="assets/icons/explore.svg" alt=""></a>
+            <a href="#home"><img src="assets/icons/like.svg" alt=""></a>
+            <a href="#home"><img src="assets/icons/profile.svg" alt=""></a>
+        </span>
+    </div>
 </header>
+
 <body>
     <div class="main-div">
-        <div class="content">
-            
+        <div class="pcontent">
+            <div class="stories"></div>
+            <div class="posts"></div>
+        </div>
+        <div class="sbcontent">
+            <div class="sidebar"></div>
         </div>
     </div>
     <script src="main.js"></script>

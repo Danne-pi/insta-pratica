@@ -1,0 +1,33 @@
+.pcontent{
+    /* background-color: beige; */
+    width: 614px;
+    height: 100%;
+}
+.sbcontent{
+    /* background-color: azure; */
+    width: 293px;
+    height: 100%;
+}
+.stories{
+    background-color: #FFFFFF;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 118px;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+}
+.posts{
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+    border: 1px solid #DBDBDB;
+}
+.sidebar{
+    margin-top: 34px;
+    height: 450px;
+    width: 100%;
+    border: 1px solid #DBDBDB;
+}

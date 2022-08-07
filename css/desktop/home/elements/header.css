@@ -1,0 +1,50 @@
+header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+header .content{
+    height: 100%;
+    width: 907px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    height: 39px;
+    transform: translate(0px, 3.6px);
+}
+header input{
+    width: 215px;
+    height: 36px;
+    border-radius: 8px;
+    outline: none;
+    border: 0;
+    background-color: #EFEFEF;
+    color: #262626;
+    background-image: url(/assets/icons/lupa.svg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    text-indent: 30px;
+}
+header input::placeholder{
+    color: #8E8E8E;
+    opacity: 0.75;
+    font-size: 15px;
+    font-weight: 300;
+}
+header span{
+    transform: translateY(-2.6px);
+}
+header span img{
+    margin-left: 18px;
+    height: 24px;
+}
