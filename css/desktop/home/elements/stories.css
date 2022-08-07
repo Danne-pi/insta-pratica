@@ -9,7 +9,12 @@
     border: 1px solid #DBDBDB;
     display: flex;
     align-items: center;
-    overflow: hidden;
+    overflow-x: auto;
+    -ms-overflow-style: none;  /* IE e Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.stories::-webkit-scrollbar{
+    display: none;  /* Chrome, Safari e Opera */
 }
 .stories a{
     text-decoration: none;
@@ -19,13 +24,15 @@
     margin: 0 8px;
 }
 .stories span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-weight: 400;
     font-size: 12px;
     margin-top: 6px;
     width: 100%;
     text-decoration: none;
     color: #262626;
-    font-weight: 300;
     font-size: 12px;
     text-align: center;
 }
