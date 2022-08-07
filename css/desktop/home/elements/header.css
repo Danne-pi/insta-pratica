@@ -30,7 +30,7 @@ header input{
     border: 0;
     background-color: #EFEFEF;
     color: #262626;
-    background-image: url(/assets/icons/lupa.svg);
+    background-image: url(../../../../assets/icons/lupa.svg);
     background-position: 10px 10px;
     background-repeat: no-repeat;
     text-indent: 30px;
