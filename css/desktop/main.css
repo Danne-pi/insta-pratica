@@ -1,7 +1,7 @@
-@import "home/elements/home.css";
 @import "home/elements/header.css"; 
 @import "home/elements/stories.css";
 @import "home/elements/posts.css";
+@import "home/elements/sidebar.css";
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -28,3 +28,14 @@ body{
     display: flex;
     justify-content: center;
 }
+.pcontent{
+    /* background-color: beige; */
+    width: 614px;
+    height: 100%;
+}
+.sbcontent{
+    /* background-color: azure; */
+    width: 293px;
+    height: 100%;
+}
+

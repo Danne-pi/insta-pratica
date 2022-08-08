@@ -24,6 +24,9 @@
     justify-content: center;
     display: flex;
 }
+.post .title span a{
+    color: #262626;
+}
 .post .title span img{
     height: 32px;
     width: 32px;
@@ -69,7 +72,11 @@
     padding-inline: 4px;
     margin-inline: 8px;
     margin-top: 4px;
+    color: #262626;
+
 }
 .post .liked strong{
     font-weight: 500;
+    color: #262626;
+
 }
