@@ -23,6 +23,12 @@
 #stories-wrapper::-webkit-scrollbar{
     display: none;  /* Chrome, Safari e Opera */
 }
+.stories .button img{
+    display: flex;
+}
+.stories .button2 img{
+    display: flex;
+}
 .stories .button{
     background-color: transparent;
     cursor: pointer;
@@ -30,9 +36,11 @@
     position: absolute;
     z-index: 1;
     right: 16px;
+    display: flex;
 }
 .stories .button2{
     background-color: transparent;
+    display: flex;
     cursor: pointer;
     border: none;
     position: absolute;
