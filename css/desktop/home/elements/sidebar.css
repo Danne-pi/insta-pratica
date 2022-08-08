@@ -5,7 +5,7 @@
     padding-left: 28px;
     border: 1px solid transparent;
 }
-.sidebar .heading{
+.sidebar .heading a{
     margin-top: 22px;
     display: flex;
     align-items: center;
