@@ -23,7 +23,7 @@ function right() {
         btn2.style.display = 'unset';
         btn1.style.display = 'unset';
     }
-    console.log(document.querySelector("header .content span").scrollWidth);
+    console.log(scrollrestante);
     swrapper.scrollBy(350,0);
     if (scrollrestante <= 0) {
         btn1.style.display = 'none';
