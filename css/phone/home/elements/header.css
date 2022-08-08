@@ -23,11 +23,12 @@ header .mobicontent{
 }
 header img{
     height: 39px;
-    transform: translate(0px, 3.6px);
+    transform: translate(0px, 5.5px);
 }
 #spacing{
-    width: 0px;
-    border: 1px solid transparent;
+    transform: translate(4px, 0px);
+    width: none;
+    border: none;
 }
 header span{
     transform: translateY(-2.6px);

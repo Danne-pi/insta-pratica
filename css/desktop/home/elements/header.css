@@ -20,13 +20,28 @@ header .deskcontent{
 header .mobicontent{
     display: none;
 }
-header img{
+header .deskcontent span a img{
+    height: 20px;
+    transform: translate(0px, 4px);
+}
+.deskcontent .title{
     height: 39px;
-    transform: translate(0px, 3.6px);
 }
 #spacing{
     width: 272px;
     border: 1px solid transparent;
+}
+#spacing a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#spacing a *{
+    margin-inline: 4px;
+}
+#logo-separator{
+    border-right: 2px solid #DBDBDB;
+    height: 22px;
 }
 header input{
     width: 260px;
