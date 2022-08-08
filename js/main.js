@@ -24,7 +24,7 @@ function right() {
         btn1.style.display = 'unset';
         
     }
-    console.log(scrollrestante);
+    console.log(document.querySelector("header .content span").scrollWidth);
     swrapper.scrollBy(350,0);
     if (scrollrestante <= 0) {
         btn1.style.display = 'none';

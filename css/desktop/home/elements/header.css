@@ -22,8 +22,12 @@ header img{
     height: 39px;
     transform: translate(0px, 3.6px);
 }
+#spacing{
+    width: 272px;
+    border: 1px solid transparent;
+}
 header input{
-    width: 215px;
+    width: 260px;
     height: 36px;
     border-radius: 8px;
     outline: none;
