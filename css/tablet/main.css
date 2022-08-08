@@ -1,11 +1,40 @@
-@import "home.css";
-
+@import "home/elements/header.css"; 
+@import "home/elements/stories.css";
+@import "home/elements/posts.css";
+@import "home/elements/sidebar.css";
 
 *{
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 body{
     width: auto;
     margin: auto;
-    align-items: center;
+    align-content: center;
 }
+.main-div{
+    margin: auto;
+    margin-top: 60px;
+    height: 2000px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.pcontent{
+    width: 614px;
+    height: 100%;
+    margin: auto;
+}
+.sbcontent{
+    display: none;
+}
+#bye{
+    display: none;
+}
+

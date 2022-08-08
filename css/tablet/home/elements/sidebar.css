@@ -1,0 +1,63 @@
+.sidebar{
+    display: none;
+}
+.sidebar .heading{
+    display: none;
+}
+.sidebar .heading img{
+    display: none;
+}
+.sidebar .heading div{
+    display: none;
+}
+.sidebar .heading .title{
+    display: none;
+}
+.sidebar .heading .sub{
+    display: none;
+}
+.sidebar .subcontent{
+    display: none;
+}
+.sidebar .subcontent .title{
+    display: none;
+}
+.sidebar .subcontent .title span{
+    display: none;
+}
+.sidebar .subcontent .title a{
+    display: none;
+}
+.sidebar .subcontent .recomended{
+    display: none;
+}
+.sidebar .subcontent .recomended img{
+    display: none;
+}
+.recwrapper{
+    display: none;
+}
+.recwrapper div{
+    display: none;
+}
+.recwrapper .rectitle{
+    display: none;
+}
+.recwrapper .recsub{
+    display: none;
+}
+.sidebar .follow{
+    display: none;
+}
+.sb-end{
+    display: none;
+}
+.from, .about{
+    display: none;
+}
+.about{
+    display: none;
+}
+.from{
+    display: none;
+}
