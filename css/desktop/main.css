@@ -18,6 +18,7 @@ body{
     margin: auto;
     align-content: center;
     background-color: #FAFAFA;
+    overflow-x: hidden;
 }
 .main-div{
     /* background-color: aqua; */
@@ -38,4 +39,13 @@ body{
     width: 293px;
     height: 100%;
 }
-
+.content-saver{
+    height: 32px;
+    border: 1px solid transparent;
+}
+.bottom-bar{
+    display: none;
+}
+.bottom-bar img{
+    display: none;
+}

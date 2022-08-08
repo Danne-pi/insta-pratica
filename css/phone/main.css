@@ -14,9 +14,11 @@ a{
     color: black;
 }
 body{
+    position: relative;
     width: 100%;
     margin: auto;
     align-content: center;
+    overflow-x: hidden;
     background-color: #FAFAFA;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -42,4 +44,22 @@ body::-webkit-scrollbar {
 }
 #bye{
     display: none;
+}
+.content-saver{
+    height: 32px;
+    border: 1px solid transparent;
+}
+.bottom-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-bar img{
+    height: 20px;
 }
