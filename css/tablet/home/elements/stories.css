@@ -24,10 +24,10 @@
     display: none;  /* Chrome, Safari e Opera */
 }
 .stories .button img{
-    display: flex;
+    display: grid;
 }
 .stories .button2 img{
-    display: flex;
+    display: grid;
 }
 .stories .button{
     background-color: transparent;
@@ -36,11 +36,11 @@
     position: absolute;
     z-index: 1;
     right: 16px;
-    display: flex;
+    display: grid;
 }
 .stories .button2{
     background-color: transparent;
-    display: flex;
+    display: grid;
     cursor: pointer;
     border: none;
     position: absolute;
