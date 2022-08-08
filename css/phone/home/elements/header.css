@@ -11,46 +11,27 @@ header{
     justify-content: center;
 }
 header .deskcontent{
+display: none;
+}
+header .mobicontent{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-header .mobicontent{
-    display: none;
+    padding-inline: 22px;
 }
 header img{
     height: 39px;
     transform: translate(0px, 3.6px);
 }
 #spacing{
-    width: 175px;
+    width: 0px;
     border: 1px solid transparent;
-}
-header input{
-    width: 240px;
-    height: 36px;
-    border-radius: 8px;
-    outline: none;
-    border: 0;
-    background-color: #EFEFEF;
-    color: #262626;
-    background-image: url(/assets/icons/lupa.svg);
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    text-indent: 30px;
-}
-header input::placeholder{
-    color: #8E8E8E;
-    opacity: 0.75;
-    font-size: 15px;
-    font-weight: 300;
 }
 header span{
     transform: translateY(-2.6px);
 }
 header span img{
-    margin-left: 18px;
     height: 24px;
 }

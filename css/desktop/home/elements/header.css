@@ -5,18 +5,20 @@ header{
     background: #FFFFFF;
     border: 1px solid #DBDBDB;
     top: 0;
+    display: flex;
     left: 0;
     z-index: 3;
-    display: flex;
     justify-content: center;
 }
-header .content{
+header .deskcontent{
     height: 100%;
     width: 907px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+header .mobicontent{
+    display: none;
 }
 header img{
     height: 39px;

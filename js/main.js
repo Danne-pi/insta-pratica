@@ -22,7 +22,6 @@ function right() {
         scrollrestante = scrollrestante - 350;     
         btn2.style.display = 'unset';
         btn1.style.display = 'unset';
-        
     }
     console.log(document.querySelector("header .content span").scrollWidth);
     swrapper.scrollBy(350,0);
