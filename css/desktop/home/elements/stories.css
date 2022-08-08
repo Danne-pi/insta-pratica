@@ -24,10 +24,10 @@
     display: none;  /* Chrome, Safari e Opera */
 }
 .stories .button img{
-    display: grid;
+    display: unset;
 }
 .stories .button2 img{
-    display: grid;
+    display: unset;
 }
 .stories .button{
     background-color: transparent;
@@ -35,7 +35,7 @@
     border: none;
     position: absolute;
     z-index: 1;
-    display: grid;
+    display: unset;
     right: 16px;
 }
 .stories .button2{
@@ -45,7 +45,7 @@
     position: absolute;
     z-index: 1;
     left: 16px;
-    display: grid;
+    display: unset;
     transform: rotate(180deg);
 }
 .stories .button img, .stories .button2 img{
