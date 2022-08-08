@@ -23,12 +23,6 @@
 #stories-wrapper::-webkit-scrollbar{
     display: none;  /* Chrome, Safari e Opera */
 }
-.stories .button img{
-    display: unset;
-}
-.stories .button2 img{
-    display: unset;
-}
 .stories .button{
     background-color: transparent;
     cursor: pointer;
