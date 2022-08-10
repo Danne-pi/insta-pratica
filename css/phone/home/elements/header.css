@@ -30,9 +30,3 @@ header img{
     width: none;
     border: none;
 }
-header span{
-    transform: translateY(-2.6px);
-}
-header span img{
-    height: 24px;
-}
